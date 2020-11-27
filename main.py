@@ -26,7 +26,7 @@ class Example(QWidget):
         self.do_paint = True
         self.repaint()
 
-    def draw_flag(self, qp):
+    def draw_circle(self, qp):
         qp.setBrush(QColor(255, 255, 0))
         t = randint(1, 100)
         qp.drawEllipse(100, 100, t, t)
